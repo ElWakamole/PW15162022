@@ -1,6 +1,59 @@
 body{
     /* 1em */
     font-size: 16px;
-    max-width: 1024px;
+    /*Recomendacion del cliente*/
+    max-width: 1078px;
+    min-width: 1078px;
     margin: 0px auto;
+}
+header input{
+    float: right;
+    margin-right: -250px;
+    margin-top: 15px;
+}
+header nav{
+    text-align: center;
+    margin-left: 220px;
+}
+header nav ul li{
+    border-bottom: 1px solid lightgray;
+    display: inline-block;
+    font-size: 1.8em;
+    margin-right: 15px;
+    color: lightgray;
+    padding-bottom: 4px;
+    /*text-decoration: underline;*/
+}
+#granthams{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+#paint{
+    float: right;
+}
+#primerSeccion{
+    /*border: 1px solid red;*/
+    height: 318px;
+    margin-top: 60px;
+}
+#primerSeccion article{
+    display: inline-block;
+    vertical-align: top;
+}
+#seccion01art01{
+    width: 60%;
+    margin-left: 30px;
+}
+#seccion01art02{
+    width: 30%;
+    margin-left: 50px;
+}
+.colorrosa{
+    color: #FF0099;
+}
+.letragrande{
+    font-size: 3.5em;
+}
+.nito{
+    font-weight: bold;
 }
